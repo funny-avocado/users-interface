@@ -1,0 +1,168 @@
+html{
+height:100%;
+}
+body {
+	background-color: white ;
+	margin:0px;
+	display:flex;
+	height:100%;
+	flex-direction:column;
+}
+p, h1, h2, h3 { margin:0;}
+nav{
+	margin-right:100pt ;
+}
+.wrapper {
+	width: 1440px;
+	/*border: 1px solid red;*/
+}
+/*шапка*/
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-family:Segoe Script ;
+		font-size:18pt ;
+		padding-left: 10px;
+		padding-right: 20px;
+		background-color:#fefacb;
+}
+/*логотип*/
+.logo {
+	display: flex;
+}
+/*настрока он, новенки, поиск*/
+.header_nav_a {
+	font-family:Garamond;
+	font-weight: bold;
+	font-size:24pt ;
+	text-decoration: none;
+	color: black;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/*контент*/
+	content {
+		display: flex;
+		justify-content: space-between;
+}
+/*меню (расположение)(одежда, пиджаки, толстовки...)*/
+.menu {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*фотки с товаром*/
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+/*хз что это*/
+.content_text {
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	margin-left: 50px;
+}
+/*настройка менюшки (только слово Одежда)*/
+.content_text_h2 {
+	color: black;
+	font-family: Garamond;
+	font-size: 30pt;
+	margin-top:10pt ;
+
+}
+/*настрока менюшки (пиджаки и куртки, толстовки...)*/
+.content_text_h3 {
+	color: black;
+	font-family: Garamond;
+	font-size: 15pt;
+	margin-top:10pt;
+	padding-left:10px;
+}
+/*хз что это*/
+.content_text_p1 {
+	color: black;
+	padding-top:15px;
+	font-family:Garamond;
+
+}
+/*настройка размера фоток товара*/
+.content_img {
+	height:500px;
+	margin: 8px;
+}
+/*настройка логотипа(фото)*/
+.content_imglogo {
+	height:80px;
+	padding-left:5px;
+ }
+ /*настройка фотки корзина*/
+ .content_imgbasket {
+	height:50px;
+	float:left;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-top:12px;
+ }
+ /*настрока фотки пользователь*/
+.content_imguser {
+	height:50px;
+	float:left;
+	padding-left:30px;
+	padding-bottom:10px;
+	padding-top:12px;
+
+ }
+/*футер*/
+	footer {
+		display: flex;
+		justify-content: center;
+		font-family:Garamond ;
+		font-size:18pt ;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color:#c8c8c8;
+}
+/*настройка футера*/
+.footer {
+	display: flex;
+	justify-content: center;
+}
+/*настрока фотки инстаграмм*/
+.content_img2 {
+	height:70px;
+	float:left;
+ 	padding-left:10px;
+ 	padding-bottom:10px;
+ 	padding-top:12px ;
+}
+/*натсройка фотки вконтакте*/
+.content_img3 {
+	height:70px;
+	float:left;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-top:12px;
+}
+/*настрока фотки фейсбук*/
+.content_img4 {
+	height:70px;
+	float:left;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-top:12px;
+}
+/*натсрока фотки пинтерест*/
+.content_img5 {
+	height:70px;
+	float:left;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-top:12px;
+}
